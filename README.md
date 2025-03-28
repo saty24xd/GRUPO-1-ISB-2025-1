@@ -2,6 +2,8 @@
 
 ## Integrantes del equipo
 
+Este es el repositorio principal para el curso, en el que se subirán los archivos y entregables relevantes. Somos el equipo #1.
+
 | Foto | Información |
 |------|-------------|
 | <img src="images/sebas.jpg" width="500"> | **Sebastian Torres**<br><i><u style="color:blue">sebastian.torres@upch.pe</u></i><br>Qué tal! yo soy estudiante de octavo ciclo con interés en ingeniería clínica y mantenimiento de equipos, y quiero aprender de todo y aplicarlo para soluciones relevantes en nuestro campo. Me gusta beber agua. |
