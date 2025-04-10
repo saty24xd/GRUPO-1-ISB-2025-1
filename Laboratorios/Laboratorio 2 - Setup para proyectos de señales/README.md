@@ -145,5 +145,5 @@ Este laboratorio incluyó:
 - Instalación de librerías
 - Simulación de 4 señales biológicas (EMG y ECG)
 - Gráficas en el dominio del tiempo y la frecuencia
-- Documentación clara y completa paso a paso
+- Documentación clara y completa paso a paso de todo
 
