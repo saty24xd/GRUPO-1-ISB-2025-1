@@ -16,6 +16,7 @@ Este es el repositorio principal para el curso, en el que se subirán los archiv
 - `CITI program - certificados/`
 - `Laboratorios/`
   - `Laboratorio 1 - Git y Github/`
+  - `Laboratorio 2 - Setup para proyectos de señales/`
 - `Proyecto/`
   - `Hardware/`
   - `Software/`
