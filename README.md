@@ -17,6 +17,7 @@ Este es el repositorio principal para el curso, en el que se subirán los archiv
 - `Laboratorios/`
   - `Laboratorio 1 - Git y Github/`
   - `Laboratorio 2 - Setup para proyectos de señales/`
+  - `Laboratorio 3 - USO DE BITalino PARA EMG y ECG/`
 - `Proyecto/`
   - `Hardware/`
   - `Software/`
