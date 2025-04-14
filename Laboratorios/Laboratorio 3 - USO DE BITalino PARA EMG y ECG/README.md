@@ -99,20 +99,20 @@ Estas gráficas permiten observar visualmente las variaciones de amplitud y pres
 ## Análisis y discusión
 Tras revisar los registros EMG obtenidos con BITalino, se pudo observar una clara diferencia en la actividad muscular entre las tres fases: reposo, flexión sin contrapeso y flexión con contrapeso. En estado de reposo, la señal de EMG presenta una amplitud muy baja (<50 µV), siendo más vulnerable a interferencias y ruido de fondo, lo cual es característico en la literatura y esperado al no haber contracción muscular voluntaria.
 
-Durante la fase de flexión sin contrapeso, se registra un aumento moderado de la amplitud (0.2 - 0.5 mV para bíceps y 0.1 - 0.3 mV para deltoides), evidenciando activación de unidades motoras, principalmente de tipo I. A nivel de frecuencia, se identifica un contenido dominante en el rango de 20-60 Hz, asociado a contracciones suaves. Esto está en concordancia con el principio de reclutamiento progresivo descrito por Henneman, donde las unidades motoras de bajo umbral se activan primero [3].
+Durante la fase de flexión sin contrapeso, se registra un aumento moderado de la amplitud (0.2 - 0.5 mV para deltoides y 0.1 - 0.3 mV para bíceps), evidenciando activación de unidades motoras, principalmente de tipo I. A nivel de frecuencia, se identifica un contenido dominante en el rango de 20-60 Hz, asociado a contracciones suaves. Esto está en concordancia con el principio de reclutamiento progresivo descrito por Henneman, donde las unidades motoras de bajo umbral se activan primero [3].
 
-En la fase de flexión con contrapeso, se observa el mayor reclutamiento muscular, con amplitudes que alcanzan hasta 1.5 mV en bíceps y 0.8 mV en deltoides. La señal se vuelve más densa y compleja, con componentes de frecuencia que pueden superar los 100 Hz, representando la participación de unidades motoras tipo II, rápidas y fatigables. Este comportamiento ha sido ampliamente documentado en estudios previos, que relacionan el incremento de carga con mayor amplitud EMG y desplazamiento del espectro de frecuencia hacia componentes más altos [4,5].
+En la fase de flexión con contrapeso, se observa el mayor reclutamiento muscular, con amplitudes que alcanzan hasta 1.5 mV en ambos musculos. La señal se vuelve más densa y compleja, con componentes de frecuencia que pueden superar los 100 Hz, representando la participación de unidades motoras tipo II, rápidas y fatigables. Este comportamiento ha sido ampliamente documentado en estudios previos, que relacionan el incremento de carga con mayor amplitud EMG y desplazamiento del espectro de frecuencia hacia componentes más altos [4,5].
 
 También se evidenció la aparición de fatiga muscular en las últimas repeticiones, reflejada en la disminución progresiva de la amplitud de la señal y el aumento de ruido, tal como lo han descrito De Luca et al. [6], asociando estos cambios con disminución en la capacidad de disparo de las unidades motoras y variaciones en la conducción de la fibra.
 
 ### Limitaciones 
 1. Ruido en las señales: Se registró una alta sensibilidad al ruido, especialmente en reposo. Esto puede deberse a interferencias ambientales, falta de apantallamiento o mal contacto electrodos-piel. Para mejorar la calidad de la señal se recomienda:
 
--Preparar adecuadamente la piel mediante limpieza y abrasión ligera para reducir la impedancia [7].
+- Preparar adecuadamente la piel mediante limpieza y abrasión ligera para reducir la impedancia [7].
 
--Usar electrodos de calidad clínica y fijarlos correctamente para minimizar el movimiento relativo [8].
+- Usar electrodos de calidad clínica y fijarlos correctamente para minimizar el movimiento relativo [8].
 
--Aplicar filtros pasa banda (20-450 Hz) y notch (50/60 Hz) para eliminar ruido de red [9].
+- Aplicar filtros pasa banda (20-450 Hz) y notch (50/60 Hz) para eliminar ruido de red [9].
 
 2. Colocación de electrodos: Una mala ubicación puede afectar la interpretación de las señales. Se recomienda seguir las guías de SENIAM para estandarizar la colocación de electrodos [10].
 
