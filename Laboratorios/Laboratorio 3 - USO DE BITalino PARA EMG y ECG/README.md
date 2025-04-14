@@ -97,15 +97,44 @@ Estas gráficas permiten observar visualmente las variaciones de amplitud y pres
 
 
 ## Análisis y discusión
-Se evidencia que la señal de EMG en reposo es más sensible a la actividad que la señal de EMG en actividad. Esto se debe a que la actividad es más intensa y la reposo es menos intensa. Además, la señal de EMG en actividad tienen mayor ruido y amplitud que la de reposo, también se pudo observar que el cansancio acumulado limita la respuesta del EMG en las última mediciones.
+Tras revisar los registros EMG obtenidos con BITalino, se pudo observar una clara diferencia en la actividad muscular entre las tres fases: reposo, flexión sin contrapeso y flexión con contrapeso. En estado de reposo, la señal de EMG presenta una amplitud muy baja (<50 µV), siendo más vulnerable a interferencias y ruido de fondo, lo cual es característico en la literatura y esperado al no haber contracción muscular voluntaria.
 
-Tras revisar los registros, se comprobó que las señales en reposo tienen una amplitud notablemente baja y, por consiguiente, son más susceptibles a interferencias. Por el contrario, durante la actividad (especialmente con carga), se observaron picos de mayor amplitud. Estos resultados se ajustan a lo reportado en otros trabajos, donde se describe un incremento significativo de la amplitud EMG conforme aumenta la fuerza ejercida (1,2).
+Durante la fase de flexión sin contrapeso, se registra un aumento moderado de la amplitud (0.2 - 0.5 mV para bíceps y 0.1 - 0.3 mV para deltoides), evidenciando activación de unidades motoras, principalmente de tipo I. A nivel de frecuencia, se identifica un contenido dominante en el rango de 20-60 Hz, asociado a contracciones suaves. Esto está en concordancia con el principio de reclutamiento progresivo descrito por Henneman, donde las unidades motoras de bajo umbral se activan primero [3].
 
-Asimismo, se notó la influencia de la fatiga muscular: en las últimas repeticiones de cada ejercicio la amplitud de la señal tendía a disminuir, lo que coincide con el comportamiento típico de la fatiga descrito en la literatura. Dicho cansancio también puede incrementar el ruido en la señal, al existir movimientos involuntarios o cambios en la colocación de los electrodos.
+En la fase de flexión con contrapeso, se observa el mayor reclutamiento muscular, con amplitudes que alcanzan hasta 1.5 mV en bíceps y 0.8 mV en deltoides. La señal se vuelve más densa y compleja, con componentes de frecuencia que pueden superar los 100 Hz, representando la participación de unidades motoras tipo II, rápidas y fatigables. Este comportamiento ha sido ampliamente documentado en estudios previos, que relacionan el incremento de carga con mayor amplitud EMG y desplazamiento del espectro de frecuencia hacia componentes más altos [4,5].
+
+También se evidenció la aparición de fatiga muscular en las últimas repeticiones, reflejada en la disminución progresiva de la amplitud de la señal y el aumento de ruido, tal como lo han descrito De Luca et al. [6], asociando estos cambios con disminución en la capacidad de disparo de las unidades motoras y variaciones en la conducción de la fibra.
 
 ### Limitaciones 
-1. Se observó mucho ruido en las señales, lo cual puede ser dado por falta de equilibrio en la actividad o sensibilidad de electrodos
+1. Ruido en las señales: Se registró una alta sensibilidad al ruido, especialmente en reposo. Esto puede deberse a interferencias ambientales, falta de apantallamiento o mal contacto electrodos-piel. Para mejorar la calidad de la señal se recomienda:
+
+-Preparar adecuadamente la piel mediante limpieza y abrasión ligera para reducir la impedancia [7].
+
+-Usar electrodos de calidad clínica y fijarlos correctamente para minimizar el movimiento relativo [8].
+
+-Aplicar filtros pasa banda (20-450 Hz) y notch (50/60 Hz) para eliminar ruido de red [9].
+
+2. Colocación de electrodos: Una mala ubicación puede afectar la interpretación de las señales. Se recomienda seguir las guías de SENIAM para estandarizar la colocación de electrodos [10].
+
+3. Fatiga y variabilidad fisiológica: La fatiga acumulada durante las sesiones afecta los registros. Una solución es controlar el tiempo de descanso entre mediciones y limitar la duración de los protocolos.
 
 ### Referencias
-1. Martins A, Chen L, Silva H. BITalino: A Wearable Platform for the Acquisition of Biosignals. IEEE Trans Biomed Eng. 2014;61(3):787–97.  
-2. da Silva RGS, Thompson BC, Freedman P, Harrington L. A Comparative Study of EMG Data Acquired Using BITalino (r)evolution and a Commercial EMG Device for Muscle Activation Detection. In: 2019 IEEE International Symposium on Medical Measurements and Applications (MeMeA). Piscataway, NJ: IEEE; 2019. p. 1–5.
+1.Martins A, Chen L, Silva H. BITalino: A Wearable Platform for the Acquisition of Biosignals. IEEE Trans Biomed Eng. 2014;61(3):787–97.
+
+2.da Silva RGS, Thompson BC, Freedman P, Harrington L. A Comparative Study of EMG Data Acquired Using BITalino (r)evolution and a Commercial EMG Device for Muscle Activation Detection. In: 2019 IEEE International Symposium on Medical Measurements and Applications (MeMeA). Piscataway, NJ: IEEE; 2019. p. 1–5.
+
+3.Henneman E, Somjen G, Carpenter DO. Functional significance of cell size in spinal motoneurons. J Neurophysiol. 1965;28(3):560–80.
+
+4.De Luca CJ. The use of surface electromyography in biomechanics. J Appl Biomech. 1997;13(2):135–63.
+
+5.Farina D, Merletti R, Enoka RM. The extraction of neural strategies from the surface EMG. J Appl Physiol. 2004;96(4):1486–95.
+
+6.De Luca CJ, LeFever RS, McCue MP, Xenakis AP. Behaviour of human motor units in different muscles during linearly varying contractions. J Physiol. 1982;329(1):113–28.
+
+7.Hermens HJ, Freriks B, Disselhorst-Klug C, Rau G. Development of recommendations for SEMG sensors and sensor placement procedures. J Electromyogr Kinesiol. 2000;10(5):361–74.
+
+8.Rainoldi A, Nazzaro M, Merletti R, Farina D, Caruso I, Gaudenti S. Geometrical factors in surface EMG: a simulation study. Biomed Eng Online. 2004;3:1.
+
+9.Konrad P. The ABC of EMG: A Practical Introduction to Kinesiological Electromyography. Noraxon USA Inc.; 2005.
+
+10.SENIAM. Surface Electromyography for the Non-Invasive Assessment of Muscles [Internet]. [cited 2025 Apr 13]. Available from: http://www.seniam.org/
