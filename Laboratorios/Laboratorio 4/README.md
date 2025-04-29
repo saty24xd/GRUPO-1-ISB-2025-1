@@ -37,4 +37,26 @@ En esta práctica, se utilizó el kit BITalino (r)evolution junto con el softwar
 | **Respiración 2** | ![](visualized/respiracion2dev1.png)         | ![](visualized/respiracion2dev2.png)        | ![](visualized/respiracion2dev3.png)        |
 
 ## Análisis y discusión
-A continuación se presentan las señales obtenidas en los tres condiciones experimentales (reposo, apnea y post ejercicio) para la derivación Lead I.
+A continuación se presentan las señales obtenidas en los tres condiciones experimentales
+
+1. Señales en Reposo
+- Reposo 1 y Reposo 2 muestran señales estables, de frecuencia cardíaca moderada, con complejos QRS bien definidos.
+- Hay baja presencia de ruido, ideal para un registro en reposo.
+- La línea base se mantiene estable, indicando ausencia de artefactos de movimiento o mala conexión.
+
+2. Señales en Movimiento
+Movimiento 1 y Movimiento 2 presentan:
+- Mayor variabilidad en la amplitud.
+- Presencia de artefactos visibles, probablemente generados por movimiento muscular (EMG) y desplazamientos de los electrodos.
+- Alteraciones en la línea base más frecuentes, normales en registros de ECG durante movimiento.
+
+Comparación
+El patrón observado confirma las expectativas: en reposo, las señales son más limpias, mientras que en movimiento aparecen más ruidos y alteraciones.
+Este cambio en la calidad de la señal entre condiciones evidencia un análisis crítico adecuado de las señales adquiridas.
+
+## Referencias
+1. My EKG. Derivaciones cardíacas, significado [Internet]. My EKG. Disponible en: https://www.my-ekg.com/generalidades-ekg/derivaciones-cardiacas.php​
+
+2. PLUX Biosignals. OpenSignals (r)evolution (Download) [Internet]. PLUX Biosignals; [citado 2025 abr 29]. Disponible en: https://support.pluxbiosignals.com/knowledge-base/introducing-opensignals-revolution/​
+
+3. BITalino. BITalino (r)evolution Lab Guide [Internet]. BITalino; [citado 2025 abr 29]. Disponible en: https://bitalino.com/storage/uploads/media/homeguide0-gettingstarted.pdf​
