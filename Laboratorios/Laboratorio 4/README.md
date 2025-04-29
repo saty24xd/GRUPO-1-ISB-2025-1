@@ -14,3 +14,27 @@ En esta práctica, se utilizó el kit BITalino (r)evolution junto con el softwar
 2. Realizar la correcta configuración del dispositivo BITalino y del software OpenSignals (r)evolution.
 3. Extraer, visualizar y analizar las señales ECG obtenidas en diferentes condiciones fisiológicas (reposo, apnea, post ejercicio)
 
+## Resultados
+### Señales ECG - REPOSO
+
+| Condición    | Derivada 1                       | Derivada 2                       | Derivada 3                       |
+|--------------|-----------------------------------|-----------------------------------|-----------------------------------|
+| **Reposo 1** | ![](visualized/r1dev1.png)         | ![](visualized/r1dev2.png)        | ![](visualized/r1dev3.png)        |
+| **Reposo 2** | ![](visualized/r2dev1.png)         | ![](visualized/r2dev2.png)        | ![](visualized/r2dev3.png)        |
+
+### Señales ECG - Movimiento
+
+| Condición    | Derivada 1                       | Derivada 2                       | Derivada 3                       |
+|--------------|-----------------------------------|-----------------------------------|-----------------------------------|
+| **Movimiento 1** | ![](visualized/mov1dev1.png)         | ![](visualized/mov1dev2.png)        | ![](visualized/mov1dev3.png)        |
+| **Movimiento 2** | ![](visualized/mov2dev1.png)         | ![](visualized/mov2dev2.png)        | ![](visualized/mov2dev3.png)        |
+
+### Señales ECG - Respiración
+
+| Condición    | Derivada 1                       | Derivada 2                       | Derivada 3                       |
+|--------------|-----------------------------------|-----------------------------------|-----------------------------------|
+| **Respiración 1** | ![](visualized/respiracion1dev1.png)         | ![](visualized/respiracion1dev2.png)        | ![](visualized/respiracion1dev3.png)        |
+| **Respiración 2** | ![](visualized/respiracion2dev1.png)         | ![](visualized/respiracion2dev2.png)        | ![](visualized/respiracion2dev3.png)        |
+
+## Análisis y discusión
+A continuación se presentan las señales obtenidas en los tres condiciones experimentales (reposo, apnea y post ejercicio) para la derivación Lead I.
