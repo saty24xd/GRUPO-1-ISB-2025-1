@@ -29,6 +29,8 @@ Preparación del sistema: Se instaló el software OpenSignals y se emparejó el 
 | Libre1 | ![EEG](visualized/librev1eeg.png) | Se puso al participante a escuchar distintos generos musicales |
 | Libre2 | ![EEG](visualized/librev2eeg.png) | Se le preguntaron preguntas complejas que tuvieran un promedio de respuesta de 1 minuto |
 
+##Discusion
+
 ## Referencias
 [1] Nunez, P. L., & Srinivasan, R. (2006). Electric Fields of the Brain: The neurophysics of EEG. Oxford University Press.
 [2] Niedermeyer, E., & da Silva, F. L. (2005). Electroencephalography: Basic principles, clinical applications, and related fields. Lippincott Williams & Wilkins.
