@@ -30,24 +30,6 @@ Preparación del sistema: Se instaló el software OpenSignals y se emparejó el 
 | Libre2 | ![EEG](visualized/librev2eeg.png) | Se le preguntaron preguntas complejas que tuvieran un promedio de respuesta de 1 minuto |
 
 ## Discusión
-¿Qué banda de frecuencia predomina al cerrar los ojos? 
-Al cerrar los ojos, la actividad en la banda alfa (8-13 Hz) tiende a aumentar, especialmente en regiones occipitales. Esta banda está asociada con estados de relajación y disminución de procesamiento visual.
-
-¿Qué filtro es imprescindible para EEG y por qué? 
-Un filtro pasabanda (band-pass) de 0.8-48 Hz es esencial. Este filtro elimina componentes de corriente continua (DC) y artefactos de baja frecuencia, además de suprimir interferencias de la red eléctrica (50/60 Hz), mejorando la calidad de la señal.
-
-¿Puedes modular conscientemente tu señal EEG? Da un ejemplo. 
-Sí, es posible modular la señal EEG de manera consciente. Un ejemplo es el control de ritmo mu (8-12 Hz) en la corteza motora. Al imaginar movimientos sin ejecutarlos físicamente, se puede observar una disminución en la potencia de esta banda, lo que se usa en interfaces cerebro-computadora (BCI).
-
-¿Se observan diferencias entre Fp1 y Fp2? ¿Por qué podrían ocurrir? 
-Sí, pueden existir diferencias entre Fp1 (hemisferio izquierdo) y Fp2 (hemisferio derecho). Estas diferencias pueden deberse a:
-
-  - Asimetrías funcionales en el procesamiento de emociones y funciones ejecutivas.
-  
-  - Interferencia de artefactos como movimientos oculares y actividad muscular.
-  
-  - Variabilidad anatómica en la disposición de estructuras corticales.
-## Discusión
 
 Durante la práctica se logró registrar señales EEG en condiciones controladas utilizando el sistema BITalino y el software OpenSignals, siguiendo la configuración del canal A4 y empleando los electrodos en las ubicaciones Fp1, Fp2 y mastoide, de acuerdo con el sistema internacional 10–20.
 
