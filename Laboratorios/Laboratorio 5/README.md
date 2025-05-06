@@ -16,6 +16,19 @@ Preparación del sistema: Se instaló el software OpenSignals y se emparejó el 
   - Artefactos controlados (2 min): parpadeo y masticación
   - Libre (6 min): actividad definida por el grupo (ej. música o respiración)
 
+## Resultados
+| Condición | Gráfica | Descripción |
+| --------- | ------- | ----------- |
+| Basal con ojos abiertos | ![EEG](visualized/basal1eegv1.png) | Descripción |
+| Basal con ojos abiertos | ![EEG](visualized/basal1eegv2.png) | Descripción |
+| Basal con ojos cerrados | ![EEG](visualized/basa21eegv1.png) | Descripción |
+| Basal con ojos cerrados | ![EEG](visualized/basa21eegv2.png) | Descripción |
+| Tarea cognitiva | ![EEG](visualized/Plano1eeg.png) | Descripción |
+| Artefactos controlados | ![EEG](visualized/artefacteegv1.png) | Descripción |
+| Artefactos controlados | ![EEG](visualized/artefacteegv2.png) | Descripción |
+| Libre1 | ![EEG](visualized/librev1eeg.png) | Descripción |
+| Libre2 | ![EEG](visualized/librev2eeg.png) | Descripción |
+
 ## Referencias
 [1] Nunez, P. L., & Srinivasan, R. (2006). Electric Fields of the Brain: The neurophysics of EEG. Oxford University Press.
 [2] Niedermeyer, E., & da Silva, F. L. (2005). Electroencephalography: Basic principles, clinical applications, and related fields. Lippincott Williams & Wilkins.
