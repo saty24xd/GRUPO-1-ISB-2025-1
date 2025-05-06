@@ -47,6 +47,35 @@ Sí, pueden existir diferencias entre Fp1 (hemisferio izquierdo) y Fp2 (hemisfer
   - Interferencia de artefactos como movimientos oculares y actividad muscular.
   
   - Variabilidad anatómica en la disposición de estructuras corticales.
+## Discusión
+
+Durante la práctica se logró registrar señales EEG en condiciones controladas utilizando el sistema BITalino y el software OpenSignals, siguiendo la configuración del canal A4 y empleando los electrodos en las ubicaciones Fp1, Fp2 y mastoide, de acuerdo con el sistema internacional 10–20.
+
+Se observó una diferencia cualitativa en la actividad eléctrica entre las condiciones de ojos abiertos y cerrados. Tal como se reporta en la literatura, al cerrar los ojos aumenta la potencia en la banda alfa (8–13 Hz), asociada con estados de relajación en reposo sin estímulos visuales. Aunque no se aplicó un análisis espectral (PSD) en este informe visual, se notan picos de mayor amplitud en los registros con ojos cerrados, lo cual sugiere esta predominancia.
+
+Durante la **tarea cognitiva**, los registros muestran mayor variabilidad y actividad eléctrica más errática. Esto es coherente con el aumento de la actividad en la banda beta (13–30 Hz), vinculada a procesos de atención y cálculo mental. La gráfica respectiva muestra picos frecuentes y amplitudes más irregulares, lo cual es consistente con la activación cortical esperada.
+
+En las condiciones de **artefactos controlados**, como el parpadeo y la masticación, se evidencia claramente la aparición de artefactos con amplitudes superiores a 80 µV, especialmente en forma de ondas abruptas y periódicas. Esto refleja la alta sensibilidad del canal EEG del BITalino a movimientos musculares y artefactos faciales, lo cual concuerda con las especificaciones técnicas del sistema (ganancia 40 000×).
+
+Finalmente, en la condición **libre**, se observaron patrones que dependen del tipo de estímulo definido por el grupo (música o preguntas complejas). La comparación entre las gráficas de Libre1 (música) y Libre2 (preguntas) muestra mayor regularidad en la primera y mayor variabilidad en la segunda, indicando cómo diferentes estímulos pueden modular la actividad cerebral.
+
+**Preguntas para discusión:**
+- ¿Qué banda de frecuencia predomina al cerrar los ojos?  
+  → La banda **alfa** (8–13 Hz), vinculada al reposo con ojos cerrados.
+- ¿Qué filtro es imprescindible para EEG y por qué?  
+  → El **pasabanda de 0.8–48 Hz** es esencial para eliminar DC y ruido de red eléctrica.
+- ¿Puedes modular conscientemente tu señal EEG?  
+  → Sí, por ejemplo cerrando los ojos o practicando respiración consciente.
+- ¿Se observan diferencias entre Fp1 y Fp2? ¿Por qué podrían ocurrir?  
+  → Aunque no se compararon explícitamente, podrían deberse a asimetrías funcionales entre hemisferios cerebrales.
+
+## Conclusiones
+
+- Se logró una adquisición adecuada de señales EEG en condiciones basales, cognitivas, con artefactos y estímulos libres, cumpliendo con la metodología propuesta.
+- Se confirmó la sensibilidad del sistema a artefactos y la necesidad de filtros adecuados para mejorar la calidad de señal.
+- Las señales EEG reflejaron patrones esperados según el estado mental: mayor potencia alfa en reposo con ojos cerrados y mayor actividad beta durante el cálculo mental.
+- Las condiciones libres mostraron cómo diferentes estímulos pueden modificar la actividad cerebral, validando el uso del EEG para estudios neurocognitivos y aplicaciones biomédicas.
+- El uso de BITalino y OpenSignals demostró ser una herramienta accesible y educativa para la introducción al análisis de señales cerebrales en contextos académicos.
 
 ## Referencias
 1. Nunez, P. L., & Srinivasan, R. (2006). Electric Fields of the Brain: The neurophysics of EEG. Oxford University Press.
