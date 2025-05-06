@@ -49,10 +49,10 @@ Sí, pueden existir diferencias entre Fp1 (hemisferio izquierdo) y Fp2 (hemisfer
   - Variabilidad anatómica en la disposición de estructuras corticales.
 
 ## Referencias
-[1] Nunez, P. L., & Srinivasan, R. (2006). Electric Fields of the Brain: The neurophysics of EEG. Oxford University Press.
-[2] Niedermeyer, E., & da Silva, F. L. (2005). Electroencephalography: Basic principles, clinical applications, and related fields. Lippincott Williams & Wilkins.
-[3] BrainyCalc Insights. EEG Filters: Types and Examples. 2024 Dic. Disponible en: https://insights.brainycalc.com/2024/12/eeg-filters-types-and-examples.html
-[4]Ramírez J, López C. Análisis de señales EEG en aplicaciones médicas. Rev Mex Ing Bioméd. 2013;34(1):15-27. Disponible en: https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0188-95322013000100002
-[5]Curso EEG. Módulo I: Montajes EEG. Disponible en: https://vsip.info/curso-eeg-modulo-i-montajes-pdf-free.html
+1. Nunez, P. L., & Srinivasan, R. (2006). Electric Fields of the Brain: The neurophysics of EEG. Oxford University Press.
+2. Niedermeyer, E., & da Silva, F. L. (2005). Electroencephalography: Basic principles, clinical applications, and related fields. Lippincott Williams & Wilkins.
+3. BrainyCalc Insights. EEG Filters: Types and Examples. 2024 Dic. Disponible en: https://insights.brainycalc.com/2024/12/eeg-filters-types-and-examples.html
+4. Ramírez J, López C. Análisis de señales EEG en aplicaciones médicas. Rev Mex Ing Bioméd. 2013;34(1):15-27. Disponible en: https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0188-95322013000100002
+5. Curso EEG. Módulo I: Montajes EEG. Disponible en: https://vsip.info/curso-eeg-modulo-i-montajes-pdf-free.html
 
 
