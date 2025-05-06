@@ -21,8 +21,8 @@ Preparación del sistema: Se instaló el software OpenSignals y se emparejó el 
 | --------- | ------- | ----------- |
 | Basal con ojos abiertos | ![EEG](visualized/basal1eegv1.png) | Descripción |
 | Basal con ojos abiertos | ![EEG](visualized/basal1eegv2.png) | Descripción |
-| Basal con ojos cerrados | ![EEG](visualized/basa21eegv1.png) | Descripción |
-| Basal con ojos cerrados | ![EEG](visualized/basa21eegv2.png) | Descripción |
+| Basal con ojos cerrados | ![EEG](visualized/basal2eegv1.png) | Descripción |
+| Basal con ojos cerrados | ![EEG](visualized/basal2eegv2.png) | Descripción |
 | Tarea cognitiva | ![EEG](visualized/Plano1eeg.png) | Descripción |
 | Artefactos controlados | ![EEG](visualized/artefacteegv1.png) | Descripción |
 | Artefactos controlados | ![EEG](visualized/artefacteegv2.png) | Descripción |
