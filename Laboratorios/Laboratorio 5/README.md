@@ -19,15 +19,15 @@ Preparación del sistema: Se instaló el software OpenSignals y se emparejó el 
 ## Resultados
 | Condición | Gráfica | Descripción |
 | --------- | ------- | ----------- |
-| Basal con ojos abiertos | ![EEG](visualized/basal1eegv1.png) | Descripción |
-| Basal con ojos abiertos | ![EEG](visualized/basal1eegv2.png) | Descripción |
-| Basal con ojos cerrados | ![EEG](visualized/basal2eegv1.png) | Descripción |
-| Basal con ojos cerrados | ![EEG](visualized/basal2eegv2.png) | Descripción |
-| Tarea cognitiva | ![EEG](visualized/Plano1eeg.png) | Descripción |
-| Artefactos controlados | ![EEG](visualized/artefacteegv1.png) | Descripción |
-| Artefactos controlados | ![EEG](visualized/artefacteegv2.png) | Descripción |
-| Libre1 | ![EEG](visualized/librev1eeg.png) | Descripción |
-| Libre2 | ![EEG](visualized/librev2eeg.png) | Descripción |
+| Basal con ojos abiertos | ![EEG](visualized/basal1eegv1.png) | Primera toma con los ojos abiertos mirando a un punto fijo |
+| Basal con ojos abiertos | ![EEG](visualized/basal1eegv2.png) | Segunda toma con los ojos abiertos mirando a un punto fijo |
+| Basal con ojos cerrados | ![EEG](visualized/basal2eegv1.png) | Primera toma con los ojos cerrados |
+| Basal con ojos cerrados | ![EEG](visualized/basal2eegv2.png) | Segunda toma con los ojos cerrados |
+| Tarea cognitiva | ![EEG](visualized/Plano1eeg.png) | Se hicieron preguntas basadas en: https://link.springer.com/article/10.3758/s13415-019-00703-5/tables/1 |
+| Artefactos controlados | ![EEG](visualized/artefacteegv1.png) | Primera toma de parpadear cada 2 s y masticar |
+| Artefactos controlados | ![EEG](visualized/artefacteegv2.png) | Segunda toma de parpadear cada 2 s y masticar |
+| Libre1 | ![EEG](visualized/librev1eeg.png) | Se puso al participante a escuchar distintos generos musicales |
+| Libre2 | ![EEG](visualized/librev2eeg.png) | Se le preguntaron preguntas complejas que tuvieran un promedio de respuesta de 1 minuto |
 
 ## Referencias
 [1] Nunez, P. L., & Srinivasan, R. (2006). Electric Fields of the Brain: The neurophysics of EEG. Oxford University Press.
