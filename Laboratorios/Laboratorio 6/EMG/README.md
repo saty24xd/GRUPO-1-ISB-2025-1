@@ -27,19 +27,6 @@ Se aplicaron filtros IIR y FIR para mejorar la claridad de la señal muscular.
 - Objetivo: Aislar la banda de interés de la señal muscular.
 
 ---
-
-## 📊 Tabla resumen de resultados
-
-| Campo de Actividad      | Señal Cruda (1ra muestra) | Filtrada IIR | Filtrada FIR |
-|-------------------------|---------------------------|---------------|---------------|
-| Reposo                  | `valor`                   | `valor`       | `valor`       |
-| Contracción Débil       | `valor`                   | `valor`       | `valor`       |
-| Contracción Fuerte      | `valor`                   | `valor`       | `valor`       |
-
-> 💡 Los valores pueden ser reemplazados por las primeras muestras o medidas representativas (como media, RMS o mediana).
-
----
-
 ## 📷 Resultados Visuales
 
 ### Reposo - Deltoides
@@ -69,6 +56,3 @@ Se aplicaron filtros IIR y FIR para mejorar la claridad de la señal muscular.
 - Se identifican diferencias claras entre los estados musculares en las señales filtradas.
 
 ---
-
-## 📁 Estructura del repositorio
-
