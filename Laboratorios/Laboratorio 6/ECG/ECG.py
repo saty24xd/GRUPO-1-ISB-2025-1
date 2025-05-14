@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.signal import butter, bessel, firwin, filtfilt
 
 # Carpeta de entrada y salida
-folder = "ECG_samples"  # Cambia a la tuya si es diferente
+folder = "ECG_samples"  
 output_folder = "FIR-IIR_ecg"
 os.makedirs(output_folder, exist_ok=True)
 
