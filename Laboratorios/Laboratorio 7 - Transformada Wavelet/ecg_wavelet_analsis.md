@@ -140,7 +140,9 @@ Tabla.5. Clasificación LDA basada en características de wavelet (energía y po
 - El uso de wavelets ofrece una ventaja clara sobre técnicas clásicas (Fourier, estadísticas simples) al tratar señales no estacionarias como el ECG.
 - El algoritmo propuesto logró un porcentaje de reconocimiento del 83.3%, demostrando la aplicabilidad de la señal ECG como biométrico para la identificación humana.
 
---- ## Referencias
+---
+
+## Referencias
 
 - [1] A. A. Elamin and M. Y. Esmail, "Wavelet-Based ECG Signal Analysis for Human Recognition," 2020 International Conference on Computer, Control, Electrical, and Electronics Engineering (ICCCEEE), Khartoum, Sudan, 2021, pp. 1-7, doi: 10.1109/ICCCEEE49695.2021.9429655. keywords: {Biometrics (access control);Databases;Euclidean distance;Electrocardiography;Wavelet analysis;Feature extraction;Rhythm;Wavelet;Biometrics Recognition;ECG;Euclidean Distance;LDA},
 - [2] C. Hitrangi Sawant y H. T. Patil,"ECG signal de-noising using discrete wavelet transform",International Journal of Electronics and Communication Computer Engineering, vol. 5, no. 4, pp. 23–28, 2014.
