@@ -86,4 +86,62 @@ El estudio emplea **db5** como un compromiso efectivo: suficientemente precisa p
 
 ## Resultados
 
-El desempeño experimental del algoritmo de reconocimiento propuesto fue evalu
+El desempeño experimental del algoritmo de reconocimiento propuesto fue evaluado utilizando dos tipos de clasificadores: distancias euclidianas y Análisis Discriminante Lineal (LDA). Primero, se calcularon las distancias euclidianas para dos características—energía y potencia—empleando un subconjunto de datos compuesto por registros de personas con múltiples mediciones (señales obtenidas en distintos momentos de un mismo individuo), incluyendo a P7, P6, P10, P11, P16 y P20. Luego, se calcularon las distancias euclidianas para cada característica en un subconjunto de registros correspondientes a diferentes individuos. Finalmente, se evaluó el rendimiento global del algoritmo combinando ambas características mediante el clasificador LDA. De este modo se obtuvo un 88.8% para distancias eucladianas entre las energy features y 83.3% entre las power features. Luego a traves de LDA se obtuvo un 83.3% de precisión global. 
+
+### Energy signature 
+
+![image](https://github.com/user-attachments/assets/79a13efa-2605-4e4e-b19b-68cfdba15450) 
+
+Fig.4. Energy signature para la misma persona en diferentes tiempos [1] 
+
+![image](https://github.com/user-attachments/assets/d0577217-61da-4dbd-87c4-83fdc62a3b44) 
+
+Fig.5. Energy signature para 3 diferentes personas [1] 
+
+#### Euclidean distance results 
+
+![image](https://github.com/user-attachments/assets/3f6aa06b-7db4-4bf1-abe9-5a0476374de5) 
+
+Tabla.1. Distancias Euclidianas entre las energy features de la misma Persona (en Diferentes Momentos)[1] 
+
+![image](https://github.com/user-attachments/assets/d46859bc-6669-458e-b78b-ed71b54b2f8f) 
+
+Tabla.2. Distancias Euclidianas entre las energy features de diferentes personas[1] ### Power signature 
+
+![image](https://github.com/user-attachments/assets/fe64f090-5b85-47a1-85aa-d53d5136e3a7) 
+
+Fig.6. Power signature para la misma persona en diferentes tiempos [1] 
+
+![image](https://github.com/user-attachments/assets/fcc118b6-1ae4-4d5f-b5bd-4b111072e19e) 
+
+Fig.7. Power signature para 3 diferentes personas [1] #### Euclidean distance results 
+
+![image](https://github.com/user-attachments/assets/29bade39-0c36-4de4-be8d-914da699a97c) 
+
+Tabla.3. Distancias Euclidianas entre las power features de la misma Persona (en Diferentes Momentos)[1] 
+
+![image](https://github.com/user-attachments/assets/a1bb0232-8a04-4061-88e6-b8ac78ac5290) 
+
+Tabla.4. Distancias Euclidianas entre las power features de diferentes personas[1] 
+
+### Clasificación LDA basada en la combinación de características. 
+
+![image](https://github.com/user-attachments/assets/0d13933f-472e-426a-b9e4-00282ddf8033) 
+
+Tabla.5. Clasificación LDA basada en características de wavelet (energía y potencia)[1] 
+
+--- 
+
+## Conclusiones 
+
+- La selección adecuada de **mother wavelets** es crítica para el éxito del análisis ECG.
+- **Daubechies 5** proporciona una plataforma robusta para limpieza de señal, ya que permite eliminar ruido sin distorsión.
+- **Morlet wavelet** permite extraer representaciones ricas en información de la señal. Asi se usa para representar los patrones biométricos únicos de cada persona.
+- El uso de wavelets ofrece una ventaja clara sobre técnicas clásicas (Fourier, estadísticas simples) al tratar señales no estacionarias como el ECG.
+- El algoritmo propuesto logró un porcentaje de reconocimiento del 83.3%, demostrando la aplicabilidad de la señal ECG como biométrico para la identificación humana.
+
+--- ## Referencias
+
+- [1] A. A. Elamin and M. Y. Esmail, "Wavelet-Based ECG Signal Analysis for Human Recognition," 2020 International Conference on Computer, Control, Electrical, and Electronics Engineering (ICCCEEE), Khartoum, Sudan, 2021, pp. 1-7, doi: 10.1109/ICCCEEE49695.2021.9429655. keywords: {Biometrics (access control);Databases;Euclidean distance;Electrocardiography;Wavelet analysis;Feature extraction;Rhythm;Wavelet;Biometrics Recognition;ECG;Euclidean Distance;LDA},
+- [2] C. Hitrangi Sawant y H. T. Patil,"ECG signal de-noising using discrete wavelet transform",International Journal of Electronics and Communication Computer Engineering, vol. 5, no. 4, pp. 23–28, 2014.
+- [3] J. T. Bialasiewicz,"Application of Wavelet Scalogram and Coscalogram for Analysis of Biomedical Signals",in Proc. 2nd Int. Conf. on Biomedical Engineering and Systems, Barcelona, Spain, 2015.
