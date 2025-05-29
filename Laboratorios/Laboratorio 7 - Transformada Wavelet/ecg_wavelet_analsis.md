@@ -106,7 +106,9 @@ Tabla.1. Distancias Euclidianas entre las energy features de la misma Persona (e
 
 ![image](https://github.com/user-attachments/assets/d46859bc-6669-458e-b78b-ed71b54b2f8f) 
 
-Tabla.2. Distancias Euclidianas entre las energy features de diferentes personas[1] ### Power signature 
+Tabla.2. Distancias Euclidianas entre las energy features de diferentes personas[1] 
+
+### Power signature 
 
 ![image](https://github.com/user-attachments/assets/fe64f090-5b85-47a1-85aa-d53d5136e3a7) 
 
@@ -114,7 +116,9 @@ Fig.6. Power signature para la misma persona en diferentes tiempos [1]
 
 ![image](https://github.com/user-attachments/assets/fcc118b6-1ae4-4d5f-b5bd-4b111072e19e) 
 
-Fig.7. Power signature para 3 diferentes personas [1] #### Euclidean distance results 
+Fig.7. Power signature para 3 diferentes personas [1] 
+
+#### Euclidean distance results 
 
 ![image](https://github.com/user-attachments/assets/29bade39-0c36-4de4-be8d-914da699a97c) 
 
