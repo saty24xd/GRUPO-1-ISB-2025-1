@@ -28,7 +28,9 @@ El procesamiento de la señal ECG. Para esto se uso técnicas basadas en wavelet
 - **Orden**: 5 (número de momentos nulos)
 - **Aplicación**: Se utilizó en la etapa de **DWT para eliminar ruido**.
 ![image](https://github.com/user-attachments/assets/c561f438-9b94-4345-aa7e-9b78d900af6a)
+
 Fig.1. Efecto denoising en la señal ECG [1]
+
 - **Motivo de selección**:
   - Su forma se asemeja al complejo **QRS** del ECG.
   - Permite separar ruido sin deformar la morfología de la señal.
@@ -36,7 +38,9 @@ Fig.1. Efecto denoising en la señal ECG [1]
 - **Ventaja**:
   - Preserva características clave del ECG mientras elimina artefactos de alta frecuencia[2].
 ![image](https://github.com/user-attachments/assets/76d9dfc6-2c01-486f-8ed5-3c3cecb9b3af)
+
 Fig.2. Mother wavelet Db5. Elaboracion propia.
+
 ### 2. **Morlet (cmor1.5-1.0)**
 
 - **Tipo**: Wavelet compleja de tipo sinusoidal modulada
@@ -51,6 +55,7 @@ Fig.2. Mother wavelet Db5. Elaboracion propia.
 - **Ventaja**:
   - Localiza patrones específicos del ECG en tiempo y frecuencia simultáneamente.
 ![image](https://github.com/user-attachments/assets/8a8fd9f2-7556-42b5-ab09-840e7e1a19c4)
+
 Fig.3. Mother wavelet Morlet. Elaboracion propia.
 ---
 
@@ -81,30 +86,41 @@ De este modo se obtuvo un 88.8% para distancias eucladianas entre las energy fea
 
 ### Energy signature
 ![image](https://github.com/user-attachments/assets/79a13efa-2605-4e4e-b19b-68cfdba15450)
+
 Fig.4. Energy signature para la misma persona en diferentes tiempos [1]
+
 ![image](https://github.com/user-attachments/assets/d0577217-61da-4dbd-87c4-83fdc62a3b44)
+
 Fig.5. Energy signature para 3 diferentes personas [1]
 #### Euclidean distance results
 ![image](https://github.com/user-attachments/assets/3f6aa06b-7db4-4bf1-abe9-5a0476374de5)
+
 Tabla.1. Distancias Euclidianas entre las energy features de la misma Persona (en Diferentes Momentos)[1]
 ![image](https://github.com/user-attachments/assets/d46859bc-6669-458e-b78b-ed71b54b2f8f)
+
 Tabla.2. Distancias Euclidianas entre las energy features de diferentes personas[1]
 
 ### Power signature
 ![image](https://github.com/user-attachments/assets/fe64f090-5b85-47a1-85aa-d53d5136e3a7)
+
 Fig.6. Power signature para la misma persona en diferentes tiempos [1]
 ![image](https://github.com/user-attachments/assets/fcc118b6-1ae4-4d5f-b5bd-4b111072e19e)
-Fig.5. Power signature para 3 diferentes personas [1]
+
+Fig.7. Power signature para 3 diferentes personas [1]
 #### Euclidean distance results
 ![image](https://github.com/user-attachments/assets/29bade39-0c36-4de4-be8d-914da699a97c)
+
 Tabla.3. Distancias Euclidianas entre las power features de la misma Persona (en Diferentes Momentos)[1]
 ![image](https://github.com/user-attachments/assets/a1bb0232-8a04-4061-88e6-b8ac78ac5290)
+
 Tabla.4. Distancias Euclidianas entre las power features de diferentes personas[1]
 
-### Clasificación LDA basada en la combinación de características
+### Clasificación LDA basada en la combinación de características.
+
 ![image](https://github.com/user-attachments/assets/0d13933f-472e-426a-b9e4-00282ddf8033)
 
 Tabla.5. Clasificación LDA basada en características de wavelet (energía y potencia)[1]
+
 ---
 
 ## Conclusiones
